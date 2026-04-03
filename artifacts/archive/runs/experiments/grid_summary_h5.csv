@@ -1,0 +1,2 @@
+﻿run,auc_mean,accuracy_mean,balanced_accuracy_mean,high_conf_accuracy_mean,coverage_mean,decision_threshold,confidence_threshold,signal_accuracy,signal_balanced_accuracy,min_signal_coverage
+sci_on_layer_on_cov003,0.5546896677867587,0.5378220020146256,0.5286716245639499,0.5591954128751141,0.258050915650135,0.48,0.58,0.5478978179882916,0.5598105385580037,0.03
