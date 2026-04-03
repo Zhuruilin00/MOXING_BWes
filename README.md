@@ -1,5 +1,26 @@
 # 科创板短周期方向预测模型
 
+[![Repo](https://img.shields.io/badge/GitHub-MOXING__BWes-181717?logo=github)](https://github.com/Zhuruilin00/MOXING_BWes)
+[![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)](https://www.python.org/)
+[![Model](https://img.shields.io/badge/Model-ExtraTrees-success)](#)
+[![Focus](https://img.shields.io/badge/Focus-Short--Horizon%20Direction-orange)](#)
+
+## 快速导航
+
+- [项目使用说明（必读）](#0-项目使用说明必读)
+- [模型创新点与意义](#06-模型创新点与意义)
+- [训练与预测流程](#5-训练与预测流程)
+- [如何直接复现这些效果](#9-如何直接复现这些效果)
+- [常用命令](#10-常用命令)
+- [输出文件说明](#11-输出文件说明)
+
+## 仓库与结果入口
+
+- GitHub 仓库主页: https://github.com/Zhuruilin00/MOXING_BWes
+- 主结论汇总: artifacts/model_comparison/summaries/benchmark_thoughtful/summary_h5.csv
+- 图表目录: artifacts/model_comparison/charts/benchmark_thoughtful/
+- 投稿证据包: artifacts/model_comparison/publication_pack/
+
 这是一个面向科创板股票的短周期方向预测项目，目标是在真实市场数据上预测未来 3 天或 5 天的上涨/下跌方向，并尽量在高噪声、风格切换频繁、样本长度不均衡的环境里保持可解释、可复现、可迭代的效果。
 
 项目的核心不是堆叠复杂模型，而是围绕科创板本身的交易特征，构建一套更适合这个市场的样本组织方式、标签去噪方式、横截面特征表达和滚动验证流程。当前代码已经固化了四组经过验证的强配置：
